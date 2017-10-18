@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Register from '../components/register'
 
 const Index = props => (
   <div>
@@ -9,6 +10,7 @@ const Index = props => (
 
     <div className="container">
       <h1>SIT CRAFT Camp Registration</h1>
+      <Register></Register>
     </div>
   </div>
 )

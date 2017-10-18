@@ -1,13 +1,13 @@
-export default async function firebase() {
+export default async function db() {
   const firebase = await import('firebase')
 
   const config = {
-    apiKey: '-----------------------------',
-    authDomain: '-----------------------------',
-    databaseURL: '-----------------------------',
-    projectId: '-----------------------------',
-    storageBucket: '-----------------------------',
-    messagingSenderId: '-----------------------------'
+    apiKey: "AIzaSyBAcNly2GtCkC564tp047SvuPJs53Y8Wck",
+    authDomain: "fir-dev-29016.firebaseapp.com",
+    databaseURL: "https://fir-dev-29016.firebaseio.com",
+    projectId: "fir-dev-29016",
+    storageBucket: "fir-dev-29016.appspot.com",
+    messagingSenderId: "420602998657"
   }
 
   try {
